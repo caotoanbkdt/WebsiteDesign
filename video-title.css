@@ -1,0 +1,17 @@
+.video-title{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.video-title video{
+    width: 100%;
+}
+.video-title .description{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+}
