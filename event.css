@@ -1,0 +1,34 @@
+.event-near{
+  margin: 20px 80px;
+}
+.event-container{
+  display: flex;
+  font-size: 12px;
+}
+.sub-event{
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #EEE;
+  border-radius: 8px;
+}
+.sub-event div{
+  color: #000;
+  margin: 5px 0;
+}
+.sub-event .time{
+  color: green;
+}
+.sub-event .title{
+  font-weight: bold;
+}
+.sub-event .attend .attend-number{
+  float: left;
+  padding: 10px 0;
+}
+.sub-event .attend .attend-button{
+  float: right;
+  padding: 10px 15px;
+  border: 1px solid green;
+  border-radius: 8px;
+}

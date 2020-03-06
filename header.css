@@ -1,10 +1,7 @@
-*{
-	font-family: Arial,sans-serif;
-}
 .header {
  margin: 0px;
  padding: 0px;
-
+ border-bottom: 1px solid rgba(46,62,72,.12);
 }
 .header .left-menu{
 	float: left;
@@ -24,6 +21,26 @@
 }
 .header .right-menu ul li:first-child{
     color: #00a2c7;
+}
+.description .des-1{
+	font-size: 42px;
+	color: #fff;
+}
+.description .des-2{
+	font-size: 20px;
+	color: #fff;
+}
+.description .des-3{
+	margin-top: 36px;
+}
+.description .des-3 a{
+	text-decoration: none;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #f13a59;
+	padding: 10px 30px; 
+	width: auto;
 }
 .header::after{
 	content: "";
